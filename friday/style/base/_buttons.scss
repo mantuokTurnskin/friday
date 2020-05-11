@@ -1,0 +1,26 @@
+.button {
+    padding: 11px 25px 13px 25px;
+    font-family: $base-font;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button_light{
+    background-color: $color-background-light;
+    border: 1px solid $color-button-border;
+    color: $color-button-ligth-text;
+}
+
+.button_colored{
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    color: $color-button-colored-text;
+}
+
+.button_light:hover{
+    background-color: $color-button-ligth-hover-bg;
+}
